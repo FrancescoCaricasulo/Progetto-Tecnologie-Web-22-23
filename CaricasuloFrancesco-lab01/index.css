@@ -1,0 +1,6 @@
+h1{ color: blue; height: 30px; text-align: center; font-size: 100px;}
+.p{ color: blue; text-align: center; height: 90px; font-size: large; } 
+.p1{ text-align: center; height: 340px;}
+.p2{ text-align: center; font-family: "Lucida Handwriting"; font-weight: bold;}
+ul{list-style-image:url(immagini/lista.png); text-align: center; font-family: "Lucida Handwriting";}
+.center {display: flex; justify-content: center; } 

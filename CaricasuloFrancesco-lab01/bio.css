@@ -1,0 +1,12 @@
+h1{ color: #a4a400; 
+    font-family:'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-align: center; font: bold; font-size: 22pt; 
+    letter-spacing: 0.25em}
+h2{color: #a4a400;
+    font-family:'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    letter-spacing: 0.25em}
+.background{background-color: #f0f0f0;}
+.testo{color: #404040; font-size: 11pt; font-family: Georgia, Garamond, serif;}
+.destra{text-align: right; height: 0;}
+ul{list-style-image:url(immagini/lista.png);}
