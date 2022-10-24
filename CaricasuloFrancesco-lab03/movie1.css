@@ -1,0 +1,102 @@
+.testo{     font-size: 8pt; 
+            font-family: Verdana, Tahoma, sans-serif;}
+
+.centrato{  text-align: center;}
+
+header{     background: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png);
+            height: 50px;}
+
+h1{         font-size: 24pt; 
+            font-family: Tahoma, Verdana, sans-serif;}
+
+nav{        margin-right: auto;
+            width: 800px;
+            margin-left: 340px;
+            height: 1200px;}
+
+.back{      background: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
+            height: 83px;
+            font-size: 48pt; 
+            font-weight: bold;
+            color: red;}
+
+aside{      float: right;
+            text-align: left;
+            width: 250px;
+            height: 1200px;}
+
+section{    width: 550px;}
+
+.col1{      width: 47%;
+            padding-left: 2%;
+            padding-right: 2%;
+            float: left;
+            height: 1100px;}
+
+.col2{      width: 47%;
+            padding-right: 2%;
+            float: right;
+            height: 1100px;}
+
+.destra{    text-align: right;}
+
+.bordo{     border-style: solid;
+            border-color: #999999;
+            border-width: 4px;
+            border-radius: 10px;}
+
+.citazione{ border-style: solid;
+            border-color: grey;
+            border-width: 2px;
+            border-radius: 10px;
+            font-weight: bold;
+            background-color: #e8dc9b;
+            padding: 8px;
+            box-sizing: content-box;}
+
+.colore{    background-color: #a2b964;}
+
+.destra{    float: right;
+            width: 47%;
+            text-align: center;
+            background-color: #a2b964;
+            height: 17px;}
+
+.sinistra{  float: left;
+            width: 291.5px;
+            text-align: center;
+            background-color: #a2b964;
+            height: 17px;}
+
+.lato{      float:left;
+            width: 33px;
+            height: 33px;
+            padding-right: 5px;}
+
+.autore{    height: 35px;
+            padding-bottom: 20pt;}
+
+.im{        padding-right: 5px;}
+
+dl{         padding:10pt;
+            font-size: 8pt;
+            font-family: Arial, sans-serif;}
+
+dd{         padding-bottom: 10pt;}
+
+.des{       float: right;
+            height: 1000px;
+            width: 60px;
+            margin: auto;}
+
+.sin{       float: left;
+            height: 1000px;
+            width: 50px;
+            margin: auto;}
+
+.so{        position: fixed;
+            bottom: 1px;
+            left: 1430px;
+            opacity: 50%;}
+
+body{       background: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png);}
