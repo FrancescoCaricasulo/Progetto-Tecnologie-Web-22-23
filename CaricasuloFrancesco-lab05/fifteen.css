@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+}
+
+body {
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 14pt;
+}
+
+/* define the width of the puzzle */
+#controls, #container, #puzzlearea {
+	width: 400px;
+}
+
+#controls {
+	padding-top: 10px;
+}
+
+h1 {
+	margin: 10px 0px;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* define the look of the puzzle */
+#puzzlearea {
+	font-family: sans-serif;
+	font-size: 40pt;
+	height: 400px;
+    position: relative;
+}
+
+/* define the look a single tile */
+.tile {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	border: 5px solid black;				/* 5px black border */
+	cursor: default;
+	height: 90px;							/* 90x90px tile, 5+5px border */
+	line-height: 90px;						/* 90x90px tile, 5+5px border */
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 90px;
+}
+
+/* manages the highlight of the tile on hover (only when it can be moved) */
+.tile_ok:hover {
+	border-color: red;
+	color: red;
+}
