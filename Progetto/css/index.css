@@ -1,0 +1,121 @@
+* {
+	font-size: 15pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+}
+fieldset {
+	background-color: rgb(176,224,230);
+	border: 2px outset gray;
+	border-radius: 10px;
+}
+body{
+	background-color: rgb(222,184,135);
+}
+
+/* CSS per il banner*/
+#bannerArea{
+    font-size: 20pt;
+    background-color: rgb(169, 165, 165);
+    height: 60px;
+    box-shadow: 30px 30px 30px black;
+}
+#banner{
+    float: left;
+}
+ul {
+	cursor: pointer;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+li {
+	font-size: 18pt;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+    padding: 20pt;
+}
+li a:hover {
+	background-color: rgb(176,224,230);
+    border: solid 1pt black;
+    color: black;
+}
+#login{
+	float: left;
+}
+#register{
+	float: left;
+}
+#register2{
+	float: left;
+}
+#lbtn{
+	float: left;
+}
+#info{
+	float: left;
+}
+#home{
+	float: left;
+}
+#LogOut{
+	float: right;
+}
+#name{
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+    padding: 18pt;
+}
+
+/* CSS per il corpo*/
+
+#corpoTesto{
+    width: 45%;
+    text-align: center;
+    padding-right: 20pt;
+    float: left;
+}
+#testo{
+    font-size: 15pt;
+}
+#results{
+    text-align: center;
+}
+#login{
+    float: left;
+}
+#si{
+	padding: 10pt;
+	margin: 10pt;
+}
+#no{
+	padding: 10pt;
+	margin: 10pt;
+}
+#err{
+	background-color:rgb(200, 0, 0);
+}
+#cerca{
+	padding-left: 10pt;
+}
+[id^="ris"]{
+	padding-left: 25%;
+}
+.nope{
+	border: solid 2pt red;
+}
+
+#w3c{
+	float: right;
+}
+
+@media (max-width: 1100px){
+	#results{
+		grid-template-columns: 1fr;
+	}
+}

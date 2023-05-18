@@ -1,0 +1,18 @@
+{	
+	"home":[
+			{
+			"title":"Benvenuto su Trekk",
+			"body":"Il sito perfetto per chi ama la montagna e tutti i suoi percorsi",
+			"btn1":"Accedi",
+			"btn2":"Registrati",
+			"btn3":"Informazioni"
+			}
+	],
+	"info":[
+		   {
+			"title":"Cos'è Trekk?",
+			"body":"Trekk è un sito che permette a chiunque ami camminare in montagna, di poter conoscere nuovi percorsi. Fatto da utenti per altri utenti, come un sorta di passaparola. In fase di registrazione potrai scegliere se essere un utente gestore o meno, cioè se ti andasse di condividere le tue esperienze con altri aggiungendo nuovi percorsi che hai attraversato.",
+			"btn":"Home"
+		   }
+	]
+}
